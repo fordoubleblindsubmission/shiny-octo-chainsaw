@@ -1,0 +1,12 @@
+Running Cilksan race detector.
+testing leaf size=128, num_ops=10, range_start=1, range_end=10, bit_mask = 0
+testing leaf size=2048, num_ops=200, range_start=1, range_end=100, bit_mask = 0
+testing leaf size=128, num_ops=10, range_start=1, range_end=10, bit_mask = 0
+testing leaf size=2048, num_ops=10, range_start=1, range_end=10, bit_mask = 0
+testing leaf size=2048, num_ops=100, range_start=1, range_end=100, bit_mask = 0
+testing leaf size=2048, num_ops=10, range_start=1, range_end=10, bit_mask = 0
+testing leaf size=2048, num_ops=200, range_start=1, range_end=100, bit_mask = 0
+testing leaf size=2048, num_ops=10, range_start=1, range_end=10, bit_mask = 0
+testing leaf size=2048, num_ops=100, range_start=1, range_end=100, bit_mask = 0
+testing leaf size=2048, num_ops=10, range_start=1, range_end=10, bit_mask = 0
+testing leaf size=2048, num_ops=200, range_start=1, range_end=100, bit_mask = 0

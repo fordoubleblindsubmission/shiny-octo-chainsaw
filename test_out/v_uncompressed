@@ -1,0 +1,5 @@
+Running Cilksan race detector.
+testing cpma<uint32_t> uncompressed_leaf InPlace
+testing size 100, fast = 0
+testing size 1000, fast = 0
+testing size 10000, fast = 0

@@ -1,0 +1,38 @@
+TO RUN PMA TESTS
+
+run make
+
+at the end, you should have an "opt" binary
+
+mv opt opt_1.1 
+
+then run pma-meta.sh
+
+output will be in pma_10M_small.out and cpma_10M_small.out
+
+TO RUN ASPEN
+
+in aspen/code
+build the tests with build-tests.sh
+
+then run them with aspen-tests.sh
+
+
+TO RUN HT / PAM
+install parlaylib: https://github.com/cmuparlay/parlaylib
+and PAM (https://cmuparlay.github.io/PAMWeb/), which depends on parlaylib
+
+put this function where the parlaylib hash table was installed:
+sequence<eType> reduce() {                                                                         
+
+    return reduce(delayed_map(TA, [&] (eType v) { return (v != empty) ? 0 : v;}));                           
+
+  }  
+
+then to run the tests, go to parlaytest/
+
+to build ht/pam, use build-ht.sh and build-pam.sh
+
+run ht tests with run-10M-ht-tests.py
+
+run pam tests with run-pam-tests.py
